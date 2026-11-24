@@ -1,0 +1,7 @@
+[
+  {"first": 1, "last": 528, "samples": 16},
+  {"first": 529, "last": 600, "samples": 32},
+  {"first": 601, "last": 1188, "samples": 16},
+  {"first": 1189, "last": 1320, "samples": 32},
+  {"first": 1321, "last": 1440, "samples": 16}
+]

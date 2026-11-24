@@ -1,0 +1,18 @@
+* text=auto
+*.js text eol=lf
+*.cjs text eol=lf
+*.mjs text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.bin binary
+*.blend binary
+
+/vendor/** linguist-vendored
+/index.html linguist-generated
+/blender/source/*.html linguist-generated

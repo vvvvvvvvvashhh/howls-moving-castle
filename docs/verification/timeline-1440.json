@@ -1,0 +1,7 @@
+{
+  "frames": 1440,
+  "allSampleFieldsEqual": true,
+  "reference": "Stored Blender director records, direction/frames.json",
+  "precision": "Original Math.round(value * 1e6) / 1e6",
+  "sha256": "3d9782839c917e07b57dd7c7f62ef61f94138c60bce5585c15c85b8931317927"
+}

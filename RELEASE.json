@@ -1,0 +1,14 @@
+{
+  "name": "风起，城行 · Howl’s Moving Castle",
+  "version": "1.0.0",
+  "release_date": "2026-11-24",
+  "duration_seconds": 60,
+  "director_fps": 24,
+  "director_samples": 1440,
+  "three_js_version": "0.170.0",
+  "public_entry": "index.html",
+  "public_html_sha256": "b3bf9a69f8442c39ecff85cea0945bdd7ce3bc648fd31cedee52df0d8362ecda",
+  "public_soundtrack": "none; optional local audio picker",
+  "native_master_reference_sha256": "a4059640594c607d6f5a203f7d7142e1afc90da5a3a3878a93fd40bdb54e5f7c",
+  "verification": "docs/VERIFICATION.zh-CN.md"
+}

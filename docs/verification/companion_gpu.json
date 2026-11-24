@@ -1,0 +1,64 @@
+{
+  "renderer": "llvmpipe (LLVM 19.1.7, 256 bits)",
+  "version": "OpenGL ES 3.2 Mesa 25.0.7-2+deb13u1",
+  "glsl": "OpenGL ES GLSL ES 3.20",
+  "linked": [
+    "sky",
+    "dust"
+  ],
+  "skyFrames": [
+    {
+      "frame": 1048,
+      "mean": 206.77,
+      "expectedSunPixel": [
+        1,
+        -67
+      ]
+    },
+    {
+      "frame": 1237,
+      "mean": 88.39,
+      "expectedSunPixel": [
+        292,
+        -121
+      ]
+    },
+    {
+      "frame": 1301,
+      "mean": 193.6,
+      "expectedSunPixel": [
+        241,
+        66
+      ],
+      "discVsSurroundingRGB": [
+        18.3,
+        29.3,
+        32.3
+      ]
+    },
+    {
+      "frame": 1311,
+      "mean": 209.53,
+      "expectedSunPixel": [
+        250,
+        42
+      ],
+      "discVsSurroundingRGB": [
+        18.3,
+        25.0,
+        31.9
+      ]
+    }
+  ],
+  "dustLitPixelRGB": [
+    224,
+    215,
+    197
+  ],
+  "dustHiddenPixelRGB": [
+    0,
+    0,
+    0
+  ],
+  "scope": "Four sky frames and two diagnostic particle samples, rendered by the shader programs embedded in the companion HTML. This is a native OpenGL ES 3 pbuffer test, separate from the player-state test and the full Blender renders."
+}

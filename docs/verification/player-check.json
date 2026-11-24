@@ -1,0 +1,265 @@
+{
+  "duration": 60,
+  "fps": 24,
+  "localAudioChecks": {
+    "importedBlob": true,
+    "seekSeconds": 12.5,
+    "pausedAt": 13.5,
+    "mutedAndUnmuted": true,
+    "shortFileDuration": 15,
+    "beyondEndPaused": true,
+    "afterUnreadableFile": {
+      "audioRemoved": true,
+      "soundToggleDisabled": true,
+      "filmStillPlaying": true,
+      "filmTime": 34
+    }
+  },
+  "sourceMusicBytes": 1920137,
+  "sha256": "d3640487119727bcf4571a18021a94d630b0dcb117a8cdb165b027c5c45787fd",
+  "samples": [
+    {
+      "label": "real RAF start and moving crow camera",
+      "t": 7.38,
+      "sample": 7.38,
+      "stage": "",
+      "type": "exterior",
+      "cameraError": 0,
+      "hero": false,
+      "fireHop": null
+    },
+    {
+      "label": "real RAF over castle gate",
+      "t": 13.75,
+      "sample": 13.75,
+      "stage": "",
+      "type": "exterior",
+      "cameraError": 0,
+      "hero": false,
+      "fireHop": null
+    },
+    {
+      "label": "real RAF kitchen cut",
+      "t": 22,
+      "sample": 22,
+      "stage": "",
+      "type": "interior",
+      "cameraError": 0,
+      "hero": false,
+      "fireHop": null
+    },
+    {
+      "label": "real RAF carried fire close-up",
+      "t": 26.5,
+      "sample": 26.5,
+      "stage": "",
+      "type": "greet",
+      "cameraError": 0,
+      "hero": true,
+      "fireHop": 0
+    },
+    {
+      "label": "real RAF summer",
+      "t": 33.5,
+      "sample": 33.5,
+      "stage": "The castle crossing eight changing landscapes",
+      "type": "journey",
+      "cameraError": 0,
+      "hero": false,
+      "fireHop": null
+    },
+    {
+      "label": "dragging across winter",
+      "t": 39.9,
+      "sample": 39.9,
+      "stage": "The castle crossing eight changing landscapes",
+      "type": "journey",
+      "cameraError": 0,
+      "hero": false,
+      "fireHop": null
+    },
+    {
+      "label": "continuous stage at the boundary",
+      "t": 40,
+      "sample": 40,
+      "stage": "The flight across one valley",
+      "type": "flight",
+      "cameraError": 0,
+      "hero": false,
+      "fireHop": 0
+    },
+    {
+      "label": "dragging into takeoff",
+      "t": 43.63,
+      "sample": 43.63,
+      "stage": "The flight across one valley",
+      "type": "flight",
+      "cameraError": 0,
+      "hero": false,
+      "fireHop": 0
+    },
+    {
+      "label": "release while playing",
+      "t": 49,
+      "sample": 49,
+      "stage": "The flight across one valley",
+      "type": "flight",
+      "cameraError": 0,
+      "hero": false,
+      "fireHop": 0
+    },
+    {
+      "label": "real RAF night orbit",
+      "t": 51.8,
+      "sample": 51.8,
+      "stage": "The flight across one valley",
+      "type": "flight",
+      "cameraError": 0,
+      "hero": true,
+      "fireHop": 0
+    },
+    {
+      "label": "paused scrub to sunrise",
+      "t": 54.58,
+      "sample": 54.58,
+      "stage": "The flight across one valley",
+      "type": "flight",
+      "cameraError": 0,
+      "hero": true,
+      "fireHop": 0
+    },
+    {
+      "label": "paused release at floating Calcifer",
+      "t": 55.81,
+      "sample": 55.81,
+      "stage": "The flight across one valley",
+      "type": "flight",
+      "cameraError": 8.961363743956553e-14,
+      "hero": true,
+      "fireHop": 1.1796610169491524
+    },
+    {
+      "label": "1 second keyboard seek",
+      "t": 56.81,
+      "sample": 56.81,
+      "stage": "The flight across one valley",
+      "type": "flight",
+      "cameraError": 1.8033521790747422e-14,
+      "hero": true,
+      "fireHop": 0.62873802582259
+    },
+    {
+      "label": "5 second keyboard seek",
+      "t": 51.81,
+      "sample": 51.81,
+      "stage": "The flight across one valley",
+      "type": "flight",
+      "cameraError": 6.112319729142702e-14,
+      "hero": true,
+      "fireHop": 0
+    },
+    {
+      "label": "keyboard holds final real film frame",
+      "t": 60,
+      "sample": 59.958333333333336,
+      "stage": "The flight across one valley",
+      "type": "flight",
+      "cameraError": 0,
+      "hero": true,
+      "fireHop": 0
+    },
+    {
+      "label": "keyboard rewinds to opening",
+      "t": 0,
+      "sample": 0,
+      "stage": "",
+      "type": "exterior",
+      "cameraError": 0,
+      "hero": false,
+      "fireHop": null
+    },
+    {
+      "label": "fifth chapter opens on sunrise",
+      "t": 54.05,
+      "sample": 54.05,
+      "stage": "The flight across one valley",
+      "type": "flight",
+      "cameraError": 0,
+      "hero": true,
+      "fireHop": 0
+    },
+    {
+      "label": "start of backward seek comparison",
+      "t": 57.5,
+      "sample": 57.5,
+      "stage": "The flight across one valley",
+      "type": "flight",
+      "cameraError": 0,
+      "hero": true,
+      "fireHop": 0.3584940312212852
+    },
+    {
+      "label": "backward across distant scenes",
+      "t": 23.9,
+      "sample": 23.9,
+      "stage": "",
+      "type": "interior",
+      "cameraError": 0,
+      "hero": false,
+      "fireHop": null
+    },
+    {
+      "label": "same late frame reached twice",
+      "t": 57.5,
+      "sample": 57.5,
+      "stage": "The flight across one valley",
+      "type": "flight",
+      "cameraError": 0,
+      "hero": true,
+      "fireHop": 0.3584940312212852
+    },
+    {
+      "label": "resume film camera after free view",
+      "t": 6.25,
+      "sample": 6.25,
+      "stage": "",
+      "type": "exterior",
+      "cameraError": 0,
+      "hero": false,
+      "fireHop": null
+    },
+    {
+      "label": "natural end after real RAF",
+      "t": 60,
+      "sample": 59.958333333333336,
+      "stage": "The flight across one valley",
+      "type": "flight",
+      "cameraError": 0,
+      "hero": true,
+      "fireHop": 0
+    },
+    {
+      "label": "film continues without unreadable score",
+      "t": 34,
+      "sample": 34,
+      "stage": "The castle crossing eight changing landscapes",
+      "type": "journey",
+      "cameraError": 0,
+      "hero": false,
+      "fireHop": null
+    }
+  ],
+  "drawCount": 39,
+  "laggedCameraDifference": 2.685997139101761,
+  "mechanicalCount": 10,
+  "maxSecondaryRepeatError": 0,
+  "freeViewDrag": 33.91502301516297,
+  "freeViewZoom": 11.98470404846132,
+  "skyDirectionNorm": 0.9999999999999999,
+  "duneHeightBounds": [
+    -20.59762954711914,
+    35.76850128173828
+  ],
+  "sceneTerrainVertices": 18769,
+  "method": "The complete offline HTML JavaScript runs its real player handlers, per-tick RAF, camera, browser Three math, real source geometry and scene draw selection in a controlled host. Rendering and PMREM are stubbed. This test does not read a WebGL framebuffer."
+}

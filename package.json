@@ -1,0 +1,13 @@
+{
+  "name": "howls-moving-castle",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "风起，城行 · 60 秒 Three.js 互动短片",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/build.mjs --check",
+    "test": "node scripts/verify-timeline.mjs"
+  }
+}

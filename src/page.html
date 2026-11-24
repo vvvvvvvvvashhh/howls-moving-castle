@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#1d302d">
+  <title>风起，城行 · 哈尔的移动城堡</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./style.css">
+  <style id="film-colour-finish">#stage canvas{filter:saturate(1.08)}</style>
+</head>
+<body>
+  <div id="stage"></div>
+  <div id="vignette" aria-hidden="true"></div>
+  <header class="top">
+    <div class="wordmark">
+      <b>HOWL’S MOVING CASTLE</b>
+      <span>FOLLOW THE WIND · TRAVEL TOGETHER</span>
+    </div>
+    <div class="tools">
+      <button id="choose-audio" class="audio-choice" type="button" title="从设备选择音频">选配乐</button>
+      <input id="audio-file" type="file" accept="audio/*,.mp3,.m4a,.aac,.wav,.ogg,.flac,.webm" hidden>
+      <button id="sound" class="icon off" type="button" aria-label="先选配乐" title="先选配乐" disabled>
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 9h4l5-4v14l-5-4H4z"/><path class="waves" d="M16 8a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14"/></svg>
+      </button>
+      <button id="full" class="icon" type="button" aria-label="全屏" title="全屏">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m6 0h5v-5"/></svg>
+      </button>
+    </div>
+    <output id="audio-status" class="audio-status" aria-live="polite"></output>
+  </header>
+
+  <section class="intro">
+    <div class="eyebrow">一只乌鸦，一段乘风的旅程</div>
+    <h1>风起，城行</h1>
+    <p class="subtitle">哈尔的移动城堡 · 六十秒 · 互动伴随版</p>
+    <div class="actions">
+      <button id="begin" class="primary" type="button">跟随乌鸦 <span>PLAY · 60s</span></button>
+      <button class="quiet" type="button" data-explore>自由观景</button>
+    </div>
+  </section>
+
+  <section class="endcard">
+    <p>THE CASTLE THAT WALKS</p>
+    <h2>风会带我们回家</h2>
+    <div class="actions">
+      <button id="again" class="primary" type="button">再次启程 <span>REPLAY</span></button>
+      <button class="quiet" type="button" data-explore>留下来看看</button>
+    </div>
+  </section>
+
+  <footer class="bottom">
+    <div class="bottom-row">
+      <div class="scene-label">
+        <span id="chapter">风穿花海</span>
+        <small>HOWL’S MOVING CASTLE</small>
+      </div>
+      <div class="transport">
+        <div class="chapters">
+          <button class="chapter-dot active" type="button" aria-label="跟随乌鸦" title="跟随乌鸦"></button>
+          <button class="chapter-dot" type="button" aria-label="炉火的回应" title="炉火的回应"></button>
+          <button class="chapter-dot" type="button" aria-label="芜菁头，出发啦" title="芜菁头，出发啦"></button>
+          <button class="chapter-dot" type="button" aria-label="四季与远行" title="四季与远行"></button>
+          <button class="chapter-dot" type="button" aria-label="晨光与草地" title="晨光与草地"></button>
+        </div>
+        <span class="explore-hint">拖动环视 · 滚轮缩放</span>
+        <select id="world" aria-label="选择沿途风景">
+          <option value="highlands">高地</option>
+          <option value="spring">春</option>
+          <option value="summer">夏</option>
+          <option value="autumn">秋</option>
+          <option value="winter">冬</option>
+          <option value="desert">沙漠</option>
+          <option value="sky">云海</option>
+          <option value="city">城市</option>
+          <option value="night">月夜</option>
+        </select>
+        <button id="toggle" type="button">暂停</button>
+        <button id="restart" type="button">重播</button>
+        <button type="button" data-explore>环视</button>
+        <span id="clock">00 / 60</span>
+      </div>
+    </div>
+    <div id="timeline" role="slider" tabindex="0" aria-label="影片进度" aria-valuemin="0" aria-valuemax="60" aria-valuenow="0">
+      <div id="progress"></div>
+    </div>
+  </footer>
+
+  <div id="loading">
+    <span>风起，城行</span>
+    <small>正在等风来</small>
+    <div class="load-track" aria-hidden="true"><i id="load-progress"></i></div>
+  </div>
+  <noscript><style>#loading{display:none}</style><p class="unsupported">启用 JavaScript 后即可观看这部互动短片。</p></noscript>
+  <audio id="soundtrack" preload="metadata"></audio>
+  <!-- Unofficial fan artwork. Original film © 2004 Diana Wynne Jones / Hayao Miyazaki / Studio Ghibli, NDDMT.
+       Film stills consulted during visual research: https://www.ghibli.jp/works/howl/
+       The scene geometry, procedural textures, motion and effects were constructed for this project. -->
+  <script type="module" src="./main.js"></script>
+</body>
+</html>

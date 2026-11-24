@@ -1,0 +1,16 @@
+{
+  "name": "howls-moving-castle-blender-tools",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Optional authoring bridge from the preserved procedural baseline to Blender 4.3",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "0.1.100"
+  },
+  "scripts": {
+    "timeline": "node direction/timeline.cjs",
+    "export-scene": "node export/export_scene.cjs"
+  }
+}

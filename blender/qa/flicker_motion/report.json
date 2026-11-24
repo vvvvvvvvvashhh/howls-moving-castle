@@ -1,0 +1,85 @@
+{
+  "scope": "Historical controlled local measurement, frames 22 through 26. Not a whole-film playback report.",
+  "source": "Preserved production diagnostic record for the approved native v5 master.",
+  "controlled_native_ab": {
+    "frames": [
+      22,
+      26
+    ],
+    "time_seconds": [
+      0.875,
+      1.0416666666666667
+    ],
+    "raster": [
+      768,
+      1080
+    ],
+    "full_image_crop_x": [
+      384,
+      1151
+    ],
+    "method": "Native 1920x1080 sampling lattice; 3 centered frame comparisons. Estimate local translation for all variants from 16spp coverage, compare every variant using the same tracks, coordinates and scene-linear semantic guides. Locally deforming wings retain a real animation residual.",
+    "units": "RMS(center luma minus mean of two locally registered neighbors), 8-bit decoded luminance levels",
+    "rms": {
+      "foreground_dense_grass": {
+        "s4_original": 12.368,
+        "s4_coverage": 12.368,
+        "s8_original": 8.202,
+        "s8_coverage": 8.202,
+        "s16_original": 5.868,
+        "s16_coverage": 5.868
+      },
+      "hull_paint_all": {
+        "s4_original": 4.481,
+        "s4_coverage": 4.48,
+        "s8_original": 3.264,
+        "s8_coverage": 3.264,
+        "s16_original": 2.663,
+        "s16_coverage": 2.663
+      },
+      "castle_edge_to_sky": {
+        "s4_original": 10.285,
+        "s4_coverage": 10.29,
+        "s8_original": 7.465,
+        "s8_coverage": 7.394,
+        "s16_original": 5.882,
+        "s16_coverage": 5.763
+      },
+      "distant_ridge_to_sky": {
+        "s4_original": 9.125,
+        "s4_coverage": 9.126,
+        "s8_original": 6.245,
+        "s8_coverage": 6.181,
+        "s16_original": 4.75,
+        "s16_coverage": 4.557
+      },
+      "distant_tree_depth_edges": {
+        "s4_original": 5.879,
+        "s4_coverage": 5.309,
+        "s8_original": 4.587,
+        "s8_coverage": 3.863,
+        "s16_original": 3.825,
+        "s16_coverage": 2.924
+      },
+      "sky": {
+        "s4_original": 0.193,
+        "s4_coverage": 0.193,
+        "s8_original": 0.193,
+        "s8_coverage": 0.193,
+        "s16_original": 0.192,
+        "s16_coverage": 0.192
+      },
+      "bird_edge_to_sky": {
+        "s4_original": 29.273,
+        "s4_coverage": 29.237,
+        "s8_original": 26.845,
+        "s8_coverage": 26.809,
+        "s16_original": 25.736,
+        "s16_coverage": 25.632
+      }
+    },
+    "motion_corrected": true,
+    "production_frame_interpolation": false
+  },
+  "evidence_files": "Original crop images were not included in the saved source archive; this package retains the measurement record."
+}

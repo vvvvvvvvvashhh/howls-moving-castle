@@ -1,0 +1,11 @@
+{
+  "scope": "Synthetic 1920x1080 colour-card fixture; not a render of the film.",
+  "decoded_video_frames": 1440,
+  "fps": 24,
+  "duration_seconds": 60,
+  "chroma_finish": 1.08,
+  "gamut_protection": true,
+  "aac_packet_count": 2814,
+  "aac_packets_and_timestamps_unchanged": true,
+  "colour_lut_sha256": "545bdd817237c2cfdb3f535d9622c733a9248cdc3ec3165f9f2a331978b6d06d"
+}

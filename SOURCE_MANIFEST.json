@@ -1,0 +1,480 @@
+{
+  "scope": "Public source package, excluding personal soundtrack, native project binaries and rendered frames.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 326,
+      "sha256": "787b3ccdca89e423d602e57324f488837f8643a1bf2bd0c59e3bad02dafdb600"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 990,
+      "sha256": "b79e699881b69dce0b2dcd3ae95d36dad49db8261d6eea2bf87388ac3ba7b49f"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2059,
+      "sha256": "e41711579fe1d66db0031a2b6c49418b4f267ec22e3402fadb9697b011c1bd35"
+    },
+    {
+      "path": "RELEASE.json",
+      "bytes": 557,
+      "sha256": "dd372ad262260669c3ef1c76648e4e9aaa99dbd17ec852598c52993c43efc380"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 3146,
+      "sha256": "559ee9d0c7b5c579dabfd561f5c7bbff725f45684032b5a5d8bc0a404dde1476"
+    },
+    {
+      "path": "assets/loading.jpg",
+      "bytes": 214619,
+      "sha256": "eff478d81c4d899bef747d59001bebf97c1c99196e0677cccc711f79eb9714ba"
+    },
+    {
+      "path": "blender/README.md",
+      "bytes": 5782,
+      "sha256": "aece4f8d8ee23d2b9384639703fb3579a55c184e3ae429ce5c1193485a0a6dfa"
+    },
+    {
+      "path": "blender/direction/apply-frame.js",
+      "bytes": 4405,
+      "sha256": "ea21dee1f1e3449ac61fbb2536ec53f470aad9eef44c109ccdb0abaac1359ee4"
+    },
+    {
+      "path": "blender/direction/curves.cjs",
+      "bytes": 3213,
+      "sha256": "d8e55632b6b3628c73b6fdea79bd1169cd4b7ba57135b90a45f980c62bfbcb5d"
+    },
+    {
+      "path": "blender/direction/ending.cjs",
+      "bytes": 8221,
+      "sha256": "42fb1bd0ec2cd58d253ce826c361ca8e11d15a5eeabbadce481758c115a5d7a7"
+    },
+    {
+      "path": "blender/direction/headless-scene.cjs",
+      "bytes": 6599,
+      "sha256": "4ba89fbf52c5b73c7b6dc7cd6e9d0368011417d14fa49899b136c835efcadbd3"
+    },
+    {
+      "path": "blender/direction/rig_patch.cjs",
+      "bytes": 2863,
+      "sha256": "3fe001e9ccee76740f94df186859d4f10fa9322cc6a1e65e5283ab0c36bba394"
+    },
+    {
+      "path": "blender/direction/sky.cjs",
+      "bytes": 3243,
+      "sha256": "3c464d5189155b249765508d6ef64a7ef103cd6696a3be91947d52997e2d43f7"
+    },
+    {
+      "path": "blender/direction/source_runtime.cjs",
+      "bytes": 1120,
+      "sha256": "e4277c0ad4fabcd97d20ffe9025287ffa860faec3f597a84b66f08a9b88ba0f7"
+    },
+    {
+      "path": "blender/direction/timeline.cjs",
+      "bytes": 6481,
+      "sha256": "b2622016ede768771dbcdf3e69bb4631c382a1fd31425300ec72bfc23d66cad5"
+    },
+    {
+      "path": "blender/export/export_scene.cjs",
+      "bytes": 8593,
+      "sha256": "61f00878ab9f3dce169eadff0a34dc4f151e37579e58fbcfe833818dbe3fac7f"
+    },
+    {
+      "path": "blender/finish/color_finish.py",
+      "bytes": 3871,
+      "sha256": "287592f5b0e291ffc27319fdfc7d713604bd7ef8a17a0694a317864f52455a88"
+    },
+    {
+      "path": "blender/finish/finish_video.py",
+      "bytes": 6115,
+      "sha256": "d77783d2755dbab571d4c13929c16cf5e46ea21f33ae4a929faadd2bfae859b8"
+    },
+    {
+      "path": "blender/motion/air_particles.py",
+      "bytes": 19949,
+      "sha256": "25a02d0c6d301f0b0c7fb8bb1211b86b180ce1519540154b419f3c778b534568"
+    },
+    {
+      "path": "blender/motion/blender_motion.py",
+      "bytes": 35401,
+      "sha256": "c57992a099b101bfdd3bea5844885fb9f48b5dd070cab8dbf50129d9772d6f2c"
+    },
+    {
+      "path": "blender/motion/finalize_project.py",
+      "bytes": 12661,
+      "sha256": "2119c70f0570a3d9d79228542c7bdd26fbe4958c811defac771e1d043ae3e079"
+    },
+    {
+      "path": "blender/motion/flame_field.py",
+      "bytes": 5677,
+      "sha256": "2e192fddce6928129ecc0872389a1401ee1b234d332f770571b2079f33ea7bba"
+    },
+    {
+      "path": "blender/motion/pack_score.py",
+      "bytes": 1174,
+      "sha256": "f99fc1e01f9449cb8573fcfbb1b0f20aa3f7543400865d26ae69b99119e1f9a0"
+    },
+    {
+      "path": "blender/motion/secondary_source.cjs",
+      "bytes": 3041,
+      "sha256": "7d47f5c40af901a124d60da766b785f4b2d4a22d3b5d7b4a46041350d351f0d9"
+    },
+    {
+      "path": "blender/package.json",
+      "bytes": 406,
+      "sha256": "cbbdbe5c08a89fefcd340b77b240b35d2a287abf5f5812c4c9d892c388a85327"
+    },
+    {
+      "path": "blender/qa/flicker_motion/report.json",
+      "bytes": 2621,
+      "sha256": "f38c0bce949e4d549e70d0a266c71497def248b22b92b741f89127ed53f5be3a"
+    },
+    {
+      "path": "blender/render/composite.py",
+      "bytes": 3596,
+      "sha256": "538b531f08679701d5d066580e6e334972acc14162abaeefbeb771f9758be7ff"
+    },
+    {
+      "path": "blender/render/continuum.py",
+      "bytes": 9796,
+      "sha256": "18cb64e5c53d600ef0299ac73db21e7ca981558a67a698666166a80253cd2bf5"
+    },
+    {
+      "path": "blender/render/film_samples.json",
+      "bytes": 246,
+      "sha256": "9040f3d179dc35f381be4a1212ef78a889d9eeccb5296d863c6388ed1dddf160"
+    },
+    {
+      "path": "blender/render/flicker_native_master.py",
+      "bytes": 5453,
+      "sha256": "2690db44d5a28f3726f094567ea0b4daf1a19aac410f439c336bc6f65db092fa"
+    },
+    {
+      "path": "blender/render/flicker_native_render.py",
+      "bytes": 12851,
+      "sha256": "95147123fb2ff6eb56c6a4483481f1d386be57779c0a763f1087cc75e6fb99af"
+    },
+    {
+      "path": "blender/render/flicker_native_samples.json",
+      "bytes": 236,
+      "sha256": "aedfc34cf4522b59c3d8be644afafe03a31a8f3104b9c7e30c2ad9203fc672bd"
+    },
+    {
+      "path": "blender/render/lighting.py",
+      "bytes": 9762,
+      "sha256": "ac5f52f4ae69ba6ecfe43ec276424b9cfddd5b6785c0e30617930c0a28a8e805"
+    },
+    {
+      "path": "blender/render/materials.py",
+      "bytes": 10851,
+      "sha256": "1fe10fefad29881cd4b5ccc8b2c3df498b23c26b242cda959be59553d035049f"
+    },
+    {
+      "path": "blender/render/meadow.py",
+      "bytes": 3526,
+      "sha256": "558f408d6fc5f789c4fc39f3b77b26c48bd098fa52e7bdcb9ade39c4f4670fd6"
+    },
+    {
+      "path": "blender/render/mesh_import.py",
+      "bytes": 8215,
+      "sha256": "d90dad43dde568dbe990fb164ccccf74a61db5db48099c352d380b016a260058"
+    },
+    {
+      "path": "blender/render/prepare_castle.py",
+      "bytes": 4209,
+      "sha256": "589494ee5f6d6aa471366adef96c547571d562dbd99e6c255b5646afd1bcc617"
+    },
+    {
+      "path": "blender/render/render_film.py",
+      "bytes": 7225,
+      "sha256": "a31d289f758c1bc1cb7f7e7fb94c921fbb2c58a405e1ee0a9286c89a703bb9ed"
+    },
+    {
+      "path": "blender/render/scene_build.py",
+      "bytes": 15369,
+      "sha256": "fe846af9d3aa973c735d6b60479a5ff488bbf815ce927ce9e12193242c4060c6"
+    },
+    {
+      "path": "blender/render/sky_map.py",
+      "bytes": 2070,
+      "sha256": "c188a1356f44a6b52881abd0dfd56160ff007f72a911d8791fd22850557cde19"
+    },
+    {
+      "path": "blender/render/timeline.py",
+      "bytes": 4307,
+      "sha256": "6d00911837ee296e2b3a9812c21048b42fda8621b18348d462c30dc4f0f2cfc4"
+    },
+    {
+      "path": "blender/render/weather_sky_data.png",
+      "bytes": 1615789,
+      "sha256": "83c102503366deb0e010bedd60b7a1a7f23d862b8d21035ebf14aaf3d71259f8"
+    },
+    {
+      "path": "blender/source/howls_moving_castle_dynamic60.html",
+      "bytes": 2004829,
+      "sha256": "a71e4cb8199d3e859151fd4fab8e9a42312cbac86bede1cfec6d13bf2c1f1a59"
+    },
+    {
+      "path": "direction/apply-frame.js",
+      "bytes": 3947,
+      "sha256": "4eb52881b7cdd952919fec17d9efbaef0647c43bae480c4272dc63830c576f59"
+    },
+    {
+      "path": "direction/companion-stage.js",
+      "bytes": 13988,
+      "sha256": "2770558224226e4882c6edc07918c1395425b14b491bce71727a158f8cbb85f3"
+    },
+    {
+      "path": "direction/curves.js",
+      "bytes": 3204,
+      "sha256": "2d33e583edcadffd3a33ce7f40ef9a18874f30f70d582c89a6d213a5b5be1516"
+    },
+    {
+      "path": "direction/ending.js",
+      "bytes": 8210,
+      "sha256": "f073d3257d29db6038347f21782665ee964841ef72a008d994deb65553e8e316"
+    },
+    {
+      "path": "direction/sky.js",
+      "bytes": 3217,
+      "sha256": "664e426a96e68450286bea69ee14677c37422cb097df3315ec928502492a69c5"
+    },
+    {
+      "path": "direction/timeline.js",
+      "bytes": 4964,
+      "sha256": "750c5020fd1d98a0cf157d730033cabb44e0b6f69e9ff0054bb0408a01bffbaa"
+    },
+    {
+      "path": "docs/ASSETS_AND_CREDITS.md",
+      "bytes": 2543,
+      "sha256": "2edf5c37500134b842237880b74e28c76ca525a601224fc82642b3c4484e3f65"
+    },
+    {
+      "path": "docs/GITHUB_PUBLISH.zh-CN.md",
+      "bytes": 2746,
+      "sha256": "ced7ceda05a945b9ef2a239dc28c92520a5902da1cd033a11a99a577425a9f29"
+    },
+    {
+      "path": "docs/MAKING_OF.zh-CN.md",
+      "bytes": 11822,
+      "sha256": "7ffe1bd3f3f659527cbf2c6af31eb56140b8609fa0d43d74c39facf9391adfa6"
+    },
+    {
+      "path": "docs/REVERSE_PROMPT.zh-CN.md",
+      "bytes": 6817,
+      "sha256": "9f58aacc96a42adb5c3e8eb38587f5f99b0208c26ec82bfab63488540023b7a9"
+    },
+    {
+      "path": "docs/SHOT_LIST.zh-CN.md",
+      "bytes": 4596,
+      "sha256": "23cbbd26102fc52dadb576fff689823bcb0f474ba5aee158f7af867efd0f7052"
+    },
+    {
+      "path": "docs/VERIFICATION.zh-CN.md",
+      "bytes": 3523,
+      "sha256": "1d0882c060620164be845e703f9d37d467555185026cf09416a4d0c7ac4d1370"
+    },
+    {
+      "path": "docs/verification/companion_gpu.json",
+      "bytes": 1175,
+      "sha256": "318fe3f2e2dd8b50183aeb7e9bce8bc7e042db9b935c6c24328f4c0b0ec7dee0"
+    },
+    {
+      "path": "docs/verification/finisher-smoke-test.json",
+      "bytes": 375,
+      "sha256": "c10ec80475f931445d0941d84ab6fe32132604b20fd5376aab6b086c70daf64c"
+    },
+    {
+      "path": "docs/verification/highland-shadows.json",
+      "bytes": 9097,
+      "sha256": "8aa74013cef550f20dc196b94216beadacf5fc87abcfb3763fcba62b09c1ae4a"
+    },
+    {
+      "path": "docs/verification/player-check.json",
+      "bytes": 6517,
+      "sha256": "663aa71d7f6db40a42fd880f4e42b1627ba306b7d79290d59ea2bb14f7730635"
+    },
+    {
+      "path": "docs/verification/timeline-1440.json",
+      "bytes": 263,
+      "sha256": "c22038f3253b528f2794059ac06e75a68a0c05e3e47055346da8d55bca915d01"
+    },
+    {
+      "path": "index.html",
+      "bytes": 2057771,
+      "sha256": "b3bf9a69f8442c39ecff85cea0945bdd7ce3bc648fd31cedee52df0d8362ecda"
+    },
+    {
+      "path": "package.json",
+      "bytes": 351,
+      "sha256": "8704691b8bcec63ee356f193d0522209e03f5d8ea3ce61e3df5397f4089a24e0"
+    },
+    {
+      "path": "scripts/build.mjs",
+      "bytes": 5400,
+      "sha256": "ff32c66853df09b4551de7aace438524543c9664e25aefc8b2268306b3cfe63e"
+    },
+    {
+      "path": "scripts/verify-timeline.mjs",
+      "bytes": 1207,
+      "sha256": "2ab0061d727901936131c9ca00f7ef2e8f68c3284372314a35e3f27bd5382892"
+    },
+    {
+      "path": "src/atmosphere.js",
+      "bytes": 5238,
+      "sha256": "f1d767378964bd34ae6e46eed34f2161b419e4aa0c9585722e2d3563eb721d36"
+    },
+    {
+      "path": "src/audio.js",
+      "bytes": 2879,
+      "sha256": "b34452d341472be7adecc11495537d8fa08fb52f8dbf2c46d77200ee2aff10d8"
+    },
+    {
+      "path": "src/calcifer.js",
+      "bytes": 21665,
+      "sha256": "a5398427f6f8b3f347aa5e26cd7c0adecce34c799658d08f1b20ebc010760bbd"
+    },
+    {
+      "path": "src/camera-a.js",
+      "bytes": 3690,
+      "sha256": "746518da2df895b1c8b022d32b89c4bf9d013cdc42c28a0cb47125b45dead8d7"
+    },
+    {
+      "path": "src/camera-b.js",
+      "bytes": 8604,
+      "sha256": "2cccac874353ce5fab26ef4a08da58a9e50243cd89cf2f17c9f42f96bea74016"
+    },
+    {
+      "path": "src/castle-flight.js",
+      "bytes": 14245,
+      "sha256": "96bd457ed41c350267a9bf44252e8f04e5c2e1373dc559f31a70fc63a7c8c336"
+    },
+    {
+      "path": "src/castle-weather.js",
+      "bytes": 1896,
+      "sha256": "18c8f8dc445e2d56da9df66acb12c89cb71340117e67b5819b9c711af7b01785"
+    },
+    {
+      "path": "src/castle.js",
+      "bytes": 64660,
+      "sha256": "09a64c17908a8045cb94b5c1598ddd2355a645f939eb402b8eb0e9e839ff4e67"
+    },
+    {
+      "path": "src/companions.js",
+      "bytes": 3684,
+      "sha256": "3d873c3b1c5fcfd0d00eabbc457efd931ccf100e52a72a8cf5b691680dbdf7ef"
+    },
+    {
+      "path": "src/crow.js",
+      "bytes": 21892,
+      "sha256": "c2de1a79d598ee9cc65c16d30d88759915c84080525e4823b5d916f645d2692f"
+    },
+    {
+      "path": "src/director.js",
+      "bytes": 4319,
+      "sha256": "debb6adb0dc57887d7ff58a1e21610bb7c72d1bceafadcb3548a95a0deca9d39"
+    },
+    {
+      "path": "src/environment.js",
+      "bytes": 1501,
+      "sha256": "d51f8b7740eb3ca054a9f697d0ac7c7198f4c633b278fa6474d9312182ce0e83"
+    },
+    {
+      "path": "src/finish.js",
+      "bytes": 1249,
+      "sha256": "5e2ede4bd1c334bc8e6538cf0c7a5134c2ada21bc14f6eaddc3955e4909c4e6c"
+    },
+    {
+      "path": "src/highland-plants.js",
+      "bytes": 20187,
+      "sha256": "93974e54094ef39a6b9377fd9f2a206ce71f66b60159163a2e1cfd63611cd314"
+    },
+    {
+      "path": "src/highland-town.js",
+      "bytes": 28359,
+      "sha256": "a3a7180e2fbfad04195f5c1156fe93efd3daf6357eb753e5bd585d469a1c8509"
+    },
+    {
+      "path": "src/interior.js",
+      "bytes": 23808,
+      "sha256": "71e03d14b62f3f2607ae5c79e6e3d5278b57bb2dc62811d3ea8313478b7ef038"
+    },
+    {
+      "path": "src/journey-flora.js",
+      "bytes": 21511,
+      "sha256": "bc5914337dbb5e39193fd2c3afd0183c869c703b5bae2c81eb58f409e4709a9e"
+    },
+    {
+      "path": "src/journey-geometry.js",
+      "bytes": 6371,
+      "sha256": "d3d5f3fd379e9695643e76b65592f6d779a26726309cab3107c62cd8b0860383"
+    },
+    {
+      "path": "src/journey-landscape.js",
+      "bytes": 19989,
+      "sha256": "98e077b8dd0cf435b620f51852dd594a091c87ea4e306a7df19aa7518ba30f98"
+    },
+    {
+      "path": "src/journey-sky.js",
+      "bytes": 26423,
+      "sha256": "d88a44f4cfd069d78dc2cd7d6e1c68c6e446e420e7ac062b66cc657fdeb987c7"
+    },
+    {
+      "path": "src/journey-town.js",
+      "bytes": 15281,
+      "sha256": "975deb940aa67e413ef7246c2a7012b9676a84243f290c4044e422ff0b0dacc1"
+    },
+    {
+      "path": "src/journey-worlds.js",
+      "bytes": 6005,
+      "sha256": "76462c095fc6e56fa27c08aef3c0e93b7a495b1872adb41c7c7c7ec59c52ccf5"
+    },
+    {
+      "path": "src/landforms.js",
+      "bytes": 19627,
+      "sha256": "7cc709363948f7d14becb57c796a790b0782215d1d780f7ced02de8697e85d44"
+    },
+    {
+      "path": "src/locomotion.js",
+      "bytes": 5554,
+      "sha256": "4a4a00cc6c34e1b0e37d8e3e1bf6095e5b8b77a1d813155e4e5a7203c8ba17f2"
+    },
+    {
+      "path": "src/main.js",
+      "bytes": 17516,
+      "sha256": "a7930c937e0558a6fcc058d19b8a8bfbbed1bc2e0d099b979abad3bbf393df3c"
+    },
+    {
+      "path": "src/page.html",
+      "bytes": 4863,
+      "sha256": "844caa03cd3ea855d57a598503e5d5da2d7100f01a285c8ddcb7510f8d7eb80d"
+    },
+    {
+      "path": "src/style.css",
+      "bytes": 9233,
+      "sha256": "1da4412f5d10025d595bd1a645166f3e4c58581d5b5eef76adc983dbe80a503c"
+    },
+    {
+      "path": "src/turnip.js",
+      "bytes": 28776,
+      "sha256": "7c8740ab8226f6f19777243156ac49ec8c2c0532ec030d0481a8651cb4a5d74d"
+    },
+    {
+      "path": "vendor/FXAAShader.js",
+      "bytes": 6632,
+      "sha256": "295ec4ebbe1811fe0ef8b1946cdfe7369a344f5d457bc2fc378c08c203c09fa7"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "bytes": 1314681,
+      "sha256": "ce1fa418de16a19495a9f72495580e3015d7745c296d3ce0485897f902ddedfb"
+    }
+  ]
+}
